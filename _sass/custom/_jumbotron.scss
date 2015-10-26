@@ -1,0 +1,11 @@
+.jumbotron {
+  a {
+    color: inherit;
+    font-size: ceil(($font-size-base * 2.5));
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom: 1px dotted #fff;
+    }
+  }
+}

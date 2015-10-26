@@ -1,0 +1,47 @@
+@import "bootstrap/variables";
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+//$navbar-height:                    50px !default;
+//$navbar-margin-bottom:             $line-height-computed !default;
+//$navbar-border-radius:             $border-radius-base !default;
+//$navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
+//$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
+//$navbar-collapse-max-height:       340px !default;
+
+$navbar-default-color:             $gray-lighter;
+$navbar-default-bg:                transparent;
+$navbar-default-border:            transparent;
+
+// Navbar links
+$navbar-default-link-color:                lighten($gray-base, 90%);
+$navbar-default-link-hover-color:          lighten($gray-base, 100%);
+//$navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:         lighten($gray-base, 95%);
+//$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+//$navbar-default-link-disabled-color:       #ccc !default;
+//$navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+//$navbar-default-brand-color:               $navbar-default-link-color !default;
+//$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+//$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+//$navbar-default-toggle-hover-bg:           #ddd !default;
+//$navbar-default-toggle-icon-bar-bg:        #888 !default;
+//$navbar-default-toggle-border-color:       #ddd !default;
+
+//== Jumbotron
+//
+//##
+
+//$jumbotron-padding:              30px !default;
+$jumbotron-color:                $gray-lighter;
+$jumbotron-bg:                   #4285f4;
+$jumbotron-heading-color:        $gray-lighter;
+//$jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
+//$jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
