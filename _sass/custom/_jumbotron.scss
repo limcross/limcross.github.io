@@ -1,4 +1,8 @@
 .jumbotron {
+  h1 {
+    display: inline-block;
+    cursor: default;
+  }
   a {
     color: inherit;
     font-size: ceil(($font-size-base * 2.5));

@@ -1,0 +1,18 @@
+.swap {
+
+  .swap-element-hidden {
+    display: none;
+  }
+  .swap-element-shown {
+    display: block;
+  }
+
+  &.swap-display:hover {
+    > .swap-element-hidden {
+      display: block;
+    }
+    > .swap-element-shown {
+      display: none;
+    }
+  }
+}
