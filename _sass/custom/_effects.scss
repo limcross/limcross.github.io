@@ -16,7 +16,8 @@
   }
 }
 
-.text-3d {
+.text-bigger {
+  font-size: 100px!important;
   text-shadow: 0 1px 0 #ccc,
               0 2px 0 #c9c9c9,
               0 3px 0 #bbb,
@@ -29,8 +30,20 @@
               0 5px 10px rgba(0,0,0,.25),
               0 10px 10px rgba(0,0,0,.2),
               0 20px 20px rgba(0,0,0,.15);
-}
 
-.text-bigger {
-  font-size: 100px!important;
+  @media (max-width: $screen-xs-max) {
+    font-size: 60px!important;
+    text-shadow: 0 1px 0 #ccc,
+                0 1px 0 #c9c9c9,
+                0 1px 0 #bbb,
+                0 2px 0 #b9b9b9,
+                0 3px 0 #aaa,
+                0 4px 1px rgba(0,0,0,.1),
+                0 0 3px rgba(0,0,0,.1),
+                0 1px 1px rgba(0,0,0,.3),
+                0 1px 3px rgba(0,0,0,.2),
+                0 3px 7px rgba(0,0,0,.25),
+                0 7px 7px rgba(0,0,0,.2),
+                0 14px 14px rgba(0,0,0,.15);
+  }
 }
